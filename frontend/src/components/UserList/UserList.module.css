@@ -1,0 +1,35 @@
+.container {
+  margin: 10px 0;
+}
+
+.list {
+  list-style-type: none;
+  padding: 0;
+}
+
+.listItem {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 5px;
+  border-bottom: 1px solid #ddd;
+}
+
+.deleteBtn {
+  padding: 5px 10px;
+  border: none;
+  background-color: red;
+  color: white;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.2s ease;
+}
+
+.deleteBtn:hover {
+  background-color: darkred;
+}
+
+.noUsers {
+  font-style: italic;
+  color: gray;
+}
